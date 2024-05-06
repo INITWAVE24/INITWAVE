@@ -599,7 +599,7 @@ border-left: 1px solid black;
   .mobile-menu-toggle {
    
     display: flex;
-    font-size: 22px;
+    font-size: 28px;
     margin-top: -40px;
     margin-left: 70vw; /* Move toggle button to the rights */
   }
@@ -623,19 +623,33 @@ border-left: 1px solid black;
 
   .mobile-menu-contents {
     position: absolute;
+   
     top: 100%;
     left: 0;
-    width: 50%;
-    height: 100vh;
+    width: 45%;
+    height: 50vh;
     background-color: #eaeaea; 
 
     z-index: 100; 
     display: none;
   }
+  .mobile-menu-contents li{
+    margin-top: 20px;
+    margin-left: 10vw;
+  }
   
   .Services {
     width: 80%;
-    /* display: none; */
+  }
+  .carrer-content{
+    font-size: 16px;
+    margin: 70px;
+  }
+  .video-background {
+    height: 50vh;
+  }
+  .video-text {
+    font-size: 30px;
   }
   .service1{
     flex-basis: 40%;
