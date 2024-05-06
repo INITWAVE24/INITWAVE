@@ -3,7 +3,7 @@ import '../App.css';
 
 function Footer() {
   return (
-    
+
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
@@ -37,7 +37,6 @@ function Footer() {
           <ul>
             <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
             <li><a href="https://wa.me/+91 8722646205">WhatsApp</a></li>
-            {/* Add more social media links as needed */}
           </ul>
         </div>
       </div>
