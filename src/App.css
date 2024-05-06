@@ -635,13 +635,39 @@ border-left: 1px solid black;
   
   .Services {
     width: 80%;
-    display: none;
+    /* display: none; */
   }
+  .service1{
+    flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+    width: 100vw;
+    height: 25vh;
+    margin-left:-12px;
+}
+.service1 h4{
+text-align: center;
+margin-bottom: 4px;
+font-size: 16px;
+}
+.service1 p{
+  font-size: 14px;
+}
+  
   .footer-content {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+  .footer-section {
+    flex-basis: 40%;
+    margin-bottom: 0;
   }
   .footer-section h2 {
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 1vh;
   }
   .footer-section ul li{
     font-size: 12px;
@@ -661,11 +687,11 @@ border-left: 1px solid black;
   margin-bottom: 18px;
   font-size: 14px;
   margin-left: -4vw;
-  width: 100%;
+  width: 80%;
  
 }
 .forms textarea{
-  width: 170px;
+  width: 80%;
   height: 100px;
 }
 .forms button{
@@ -723,7 +749,7 @@ border-left: 1px solid black;
 }
 
 .about-container button{
-margin-top: 2vh;
-margin-left: 30vw;
+margin-top: 3vh;
+margin-left: 33vw;
 }
 }
