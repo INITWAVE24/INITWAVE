@@ -13,7 +13,7 @@ function Career() {
                 <p className='video-text'>Find Your right career</p>
 
             </div>
-            <div className='carren-content'>
+            <div className='carrer-content'>
             Oops!!! We currently do not have any open positions available. Please check back later for updates on career opportunities.
             </div>
         </>

@@ -14,7 +14,7 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
 }
 
-.navbar{
+/* .navbar{
   position: relative;
   background-color: #eaeaea;
   width: 100%;
@@ -23,7 +23,7 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   align-items: center;
   justify-content: space-between;
  
-}
+} */
 
 
 .logo{
@@ -46,8 +46,6 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   margin-bottom: 5px;
   font-weight: 600;
   font-size: 14px;
-  /* color: #081c15; */
-
 }
 
 .contents {
@@ -67,6 +65,45 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 .contents li:hover{
  color: #001233;
 }
+
+.navbar {
+  position: relative;
+  background-color: #eaeaea;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px; /* Adjust height as needed */
+}
+
+.mobile-menu-toggle {
+  display: none; /* Hide toggle button by default for non-mobile view */
+  cursor: pointer;
+}
+
+.contents {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contents li {
+  margin-right: 20px;
+}
+
+
+
+
 li{
   list-style: none;
   text-decoration: none;
@@ -90,7 +127,6 @@ background-color: #eaeaea;
 .forms textarea{
   width: 70%;
   margin-bottom: 25px;
-  
   font-size: 16px;
   background-color: #eaeaea;
 }
@@ -154,13 +190,7 @@ background-color: #eaeaea;
   overflow: hidden;
   z-index: -1;
 }
-.carren-content{
-  text-align: center;
-  font-size: 24px;
-  font-weight: 300;
- margin: 100px;
 
-}
 
 .background-video {
   width: 100%;
@@ -184,7 +214,6 @@ background-color: #eaeaea;
   width: 100%;
   display: flex;
   background-color: #eaeaea;
-  
   line-height: 2;
  
 }
@@ -335,13 +364,17 @@ font-size: 20px;
 font-weight: 450;
 
 }
+.font-icon p{
+  display: flex;
+  margin-top:-40px ;
+}
 
 .contact-col2{
   margin-top: 7vh;
   max-width: 800px;
   width: 70%;
   flex-basis: 50%;
-  margin-left: 15%;
+  margin-left: 31vw;
 }
 .contact-head{
   font-size: 30px;
@@ -546,6 +579,14 @@ text-align: center;
   object-fit: cover;
   z-index: 1; 
 }
+.carrer-content{
+
+text-align: center;
+font-size: 24px;
+font-weight: 300;
+margin: 100px;
+
+}
 
 .video-text {
   font-weight: 600;
@@ -560,9 +601,119 @@ color: #eaeaea;
 }
 .active li{
   color: #000;
-
+border-right: 1px solid black;
+border-left: 1px solid black;
   margin-right: 20px;
-  background-color: #ced4da;
-  border-radius: 15px;
+}
+@media screen and (max-width: 768px) {
+  .drop-it{
+    background-color: #dfdede;
+  }
+  .navbar {
+    flex-direction: column;
+    height: 15vh;
+    padding: 10px;
+  }
 
+  .logo-div {
+    margin-top: 2.5vh;
+    margin-left: -10vw;
+   
+  }
+
+  .mobile-menu-toggle {
+   
+    display: flex;
+    font-size: 22px;
+    margin-top: -40px;
+    margin-left: 70vw; /* Move toggle button to the rights */
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contents.open {
+    display: flex; 
+  }
+
+  .contents li {
+    margin-left: 5vw;
+    margin-bottom: 30px;
+  }
+  .logo-toggle-container {
+    flex-direction: row-reverse;
+  }
+
+  .mobile-menu-contents {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: #eaeaea; 
+
+    z-index: 100; 
+    display: none;
+  }
+  
+  .Services {
+    display: none;
+  }
+
+
+  .mobile-menu-contents.open {
+    display: block;
+  }
+  .about-container{
+    height: 75vh;
+    }
+    .about div{
+  font-size: 0.9em;
+  font-weight: 300; 
+}
+.about-container button{
+  margin-left: 34vw;
+  margin-top: 18px;
+}
+
+.forms input,textarea{
+  margin-bottom: 18px;
+  font-size: 14px;
+  margin-left: -4vw;
+  width: 100%;
+ 
+}
+.forms textarea{
+  width: 170px;
+  height: 100px;
+}
+.forms button{
+  margin-top: 0px;
+}
+.font-icon{
+
+  width: 80px;
+  font-size: 15px;
+}
+.contact-col1{
+  margin-left: 10px;
+  flex-basis: 40%; 
+
+}
+.contact-col1 p{
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+.contact-col1 ul li{
+  width: 150px;
+  font-size: 16px;
+  margin-left: -10px;
+}
+ 
+.contact-col2{
+  flex-basis: 70%;
+
+}
 }

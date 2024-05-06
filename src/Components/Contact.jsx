@@ -38,15 +38,7 @@ function Contact() {
         <div className="contact-container">
             <h1 className="contact-head">Fill the form to get in touch</h1>
             <div className="contact">
-                <div className="contact-col1">
-                    <p>If you have any questions, suggestions, or would like to get in touch with the owner of the website, please feel free to send us a message using the form below. We'll get back to you as soon as possible. Your feedback is valuable to us!</p>
-
-                    <ul>
-                        <li><FontAwesomeIcon icon={faEnvelope} className='font-icon'/> intractit@gmail.com</li>
-                        <li><FontAwesomeIcon icon={faPhone} className='font-icon'/> +91 7204070100</li>
-                        <li><FontAwesomeIcon icon={faMapMarkerAlt} className='font-icon'/> Banglore, India</li>
-                    </ul>
-                </div>
+             
                 <div className="contact-col2">
                     <form className="forms" onSubmit={onSubmit}>
                         <input type="text" name="name" placeholder="Enter your Name" required/><br/>

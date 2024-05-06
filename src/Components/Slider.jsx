@@ -25,6 +25,12 @@ function Slider(){
         }
         slider.current.style.transform=`translateX(${tx}%)`;
     }
+     
+    const peopleData = [
+        { name: "Dr. N G GirishKumar", position: "Communication director"},
+        { name: "Yashwanth", position: "Chief Operating Director" },
+       
+    ];
 
     return(
         
@@ -42,11 +48,12 @@ function Slider(){
                             <div className='user-info'>
                                <div className='user1'></div>
                                 <div>
-                                    <h3>Wiiliam Jacksom</h3>
-                                    <span>Usa</span>
+                                    <h3>Dr. N G GirishKumar</h3>
+                                    <span>Communication director</span>
                                 </div>
                             </div>
-                            <p>My experience with Travel world Company was absolutely fantastic. I got to explore breathtaking landscapes, immerse myself in rich cultures, and create memories that will last a lifetime. I highly recommend  Travel world Company to anyone looking for an unforgettable travel experience.it was awesome connecting to everybody and meeting new people.</p>
+                            <p>
+Joining Interact IT as a Communication Director has been exhilarating. Collaborating with a vibrant team, I shape our brand's narrative, foster meaningful connections, and drive our mission forward. It's not just a job; it's a dynamic journey of innovation and impact.</p>
                         </div>
                     </li>
                     <li>
@@ -54,36 +61,40 @@ function Slider(){
                             <div className='user-info'>
                             <div className='user2'></div>
                                 <div>
-                                    <h3>Carlos Martinez</h3>
-                                    <span>Canada</span>
+                                    <h3>Yashwanth</h3>
+                                    <span>Chief Operating Director</span>
                                 </div>
                             </div>
-                            <p>My voyage with Travel World Company was beyond compare. From the majestic mountains to the bustling city streets, every moment was filled with awe and inspiration. Immersing myself in different cultures, trying new cuisines, and forging connections with fellow travelers made this journey truly unforgettable.</p>
-                        </div>
+                       <p>
+As the Chief Operating Director at Interact IT, I orchestrate seamless operations, ensuring efficiency and excellence in every endeavor. With a focus on strategic planning and team empowerment, I navigate complexities and drive organizational success. Join us in our quest for operational excellence and transformative growth.</p>
+                       </div>
                     </li>
                     <li>
                         <div className='slide slide3'>
                             <div className='user-info'>
                             
                                 <div>
-                                    <h3>Emma Johnson
+                                    <h3>Pavan Kumar
                                     </h3>
-                                    <span>Spain</span>
+                                    <span>Marketing Director</span>
                                 </div>
                             </div>
-               <p>My adventure with Travel World Company was nothing short of extraordinary. From the ancient ruins to the vibrant markets, each destination left a lasting impression on me. Discovering new cultures, tasting exotic flavors, and embarking on thrilling excursions made every moment memorable.</p>
-                        </div>
+              <p>
+At Interact IT, as the Marketing Director, I lead a dynamic team in crafting compelling narratives, building brand resonance, and driving impactful campaigns. Together, we leverage innovation and creativity to connect with audiences and propel the company's growth trajectory. Join us in shaping the future of marketing excellence.
+              </p>
+              </div>
                     </li>
                     <li>
                         <div className='slide slide4'>
                             <div className='user-info'>
                                 <div>
-                                    <h3>Lisa Wang</h3>
-                                    <span>China</span>
+                                    <h3>Yashashwini S</h3>
+                                    <span>Project Head</span>
                                 </div>
                             </div>
-         <p>My experience with Travel World Company was simply extraordinary. From the serene countryside to the bustling city streets, each destination offered a unique adventure. Exploring historical landmarks, indulging in local cuisine, and connecting with locals enriched my journey in ways I never imagined.</p>
-                        </div>
+         <p>
+As the Project Head at Interact IT, I spearhead cross-functional teams, ensuring seamless project execution and delivery. With a focus on strategy, collaboration, and innovation, I drive projects from inception to success. Join our team to lead transformative projects and make a tangible impact in the world of technology.</p>
+         </div>
                     </li>
                 </ul>
             </div>

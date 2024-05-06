@@ -7,13 +7,8 @@ import Slider from './Slider';
 
 
 function AboutUs() {
-    
-   
-    const peopleData = [
-        { name: "John Doe", position: "CEO", image: "john_doe.jpg" },
-        { name: "Jane Smith", position: "CTO", image: "jane_smith.jpg" },
-       
-    ];
+  
+  
 
     return (
         <div className="about-us-container">
