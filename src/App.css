@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+html,body{
+width:100%;
+/* height: 100%; */
+overflow-x: hidden;
+}
 *{
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -14,16 +19,6 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
 }
 
-/* .navbar{
-  position: relative;
-  background-color: #eaeaea;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
- 
-} */
 
 
 .logo{
@@ -69,7 +64,7 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 .navbar {
   position: relative;
   background-color: #eaeaea;
-  width: 100%;
+  width: auto;
   height: 100px;
   display: flex;
   align-items: center;
@@ -139,7 +134,7 @@ background-color: #eaeaea;
   border: none;
   text-align: center;
   color: #000;
-  margin: 15px;
+ 
   font-size: 1em;
 }
 .forms input,textarea:focus{
@@ -200,7 +195,7 @@ background-color: #eaeaea;
 
 .about-container {
   position: relative;
-  height: 50vh;
+  height: 75vh;
 display: flex;
 flex-direction: column;
 flex-direction: column;
@@ -322,16 +317,16 @@ align-items: center;
 
 }
 .about-container button{
-  margin-top: 3em;
-  margin-left: 45vw;
+
   width: 150px;
   text-align: center;
   border-radius: 35px;
   height: 40px;
   font-size: 1rem;
-  border: none;
   border: 1px solid black;
- background-color: #eaeaea;;
+ background-color: #eaeaea;
+ margin-left: 34vw;
+ margin-top: 18px;
 }
 .arrow-icon{
   margin-left: 10px;
@@ -340,30 +335,10 @@ align-items: center;
 
 .contact{
 display: flex;
+justify-content: center;
+align-items: center;
+}
 
-
-}
-.contact-col1{
-  margin-left: 20px;
-  flex-basis: 70%;
-  width: 900px;
- 
-}
-.contact-col1 p{
-  margin-top: 7vh;
-line-height: 1.5;
-margin-bottom: 30px;
-font-size: 1.2em;
-font-weight: 300;
-}
-.contact-col1 ul li {
-  width:30vw;
-height: 40px;  
-padding: 10px;
-font-size: 20px;
-font-weight: 450;
-
-}
 .font-icon p{
   display: flex;
   margin-top:-40px ;
@@ -371,10 +346,9 @@ font-weight: 450;
 
 .contact-col2{
   margin-top: 7vh;
-  max-width: 800px;
-  width: 70%;
-  flex-basis: 50%;
-  margin-left: 31vw;
+  flex-basis: 30%;
+margin-left: 8%;
+
 }
 .contact-head{
   font-size: 30px;
@@ -408,7 +382,7 @@ padding: 10px;
 }
 
 .footer-section h2 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 15px;
 }
 
@@ -612,7 +586,7 @@ border-left: 1px solid black;
   .navbar {
     flex-direction: column;
     height: 15vh;
-    padding: 10px;
+ 
   }
 
   .logo-div {
@@ -659,6 +633,7 @@ border-left: 1px solid black;
   }
   
   .Services {
+    width: 80%;
     display: none;
   }
 
@@ -666,17 +641,12 @@ border-left: 1px solid black;
   .mobile-menu-contents.open {
     display: block;
   }
-  .about-container{
-    height: 75vh;
-    }
+
     .about div{
   font-size: 0.9em;
   font-weight: 300; 
 }
-.about-container button{
-  margin-left: 34vw;
-  margin-top: 18px;
-}
+
 
 .forms input,textarea{
   margin-bottom: 18px;
@@ -715,5 +685,30 @@ border-left: 1px solid black;
 .contact-col2{
   flex-basis: 70%;
 
+}
+
+.text-div span{ 
+  line-height: 0;
+
+
+}
+.background1 {
+  height: 80vh;
+}
+.contact-col2{
+  margin-top: 5%;
+  margin-left: 20vw;
+}
+.contact-head{
+
+  margin-top: 0;
+}
+.about-container{
+  height: 55vh;
+}
+
+
+.footer {
+  padding: 20px 0;
 }
 }

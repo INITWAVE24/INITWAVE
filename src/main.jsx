@@ -22,7 +22,6 @@ const router=createBrowserRouter(createRoutesFromElements(
 <Route path='' element={<Services/>}/>
 <Route path='/careers' element={<Career/>}/>
 <Route path='' element={<Contact/>}/>
-
 </Route>
 
 ))
