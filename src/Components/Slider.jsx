@@ -11,21 +11,20 @@ function Slider(){
     
     const slider=useRef();
     let tx=0;
-    const slideForward=()=>{
-        console.log(slider.current.style.transform);
-        if(tx>-50){
-            tx-=25;
+    const slideForward = () => {
+        if (tx > -75) { // Adjust the condition based on the number of slides
+            tx -= 25; // Adjust the value based on the width of your slides
+            slider.current.style.transform = `translateX(${tx}%)`;
         }
-        slider.current.style.transform=`translateX(${tx}%)`;
-    }
-    const slideBackward=()=>{
-        console.log(slider.current);
-        if(tx<0){
-            tx+=25;
+    };
+    
+    const slideBackward = () => {
+        if (tx < 0) {
+            tx += 25; // Adjust the value based on the width of your slides
+            slider.current.style.transform = `translateX(${tx}%)`;
         }
-        slider.current.style.transform=`translateX(${tx}%)`;
-    }
-     
+    };
+    
   
 
     return(
@@ -42,7 +41,7 @@ function Slider(){
                     <li>
                         <div className='slide slide1'>
                             <div className='user-info'>
-                               <div className='user1'></div>
+                              
                                 <div>
                                     <h3>Dr. N G GirishKumar</h3>
                                     <span>Communication director</span>
@@ -55,7 +54,7 @@ Joining Interact IT as a Communication Director has been exhilarating. Collabora
                     <li>
                         <div className='slide slide2'>
                             <div className='user-info'>
-                            <div className='user2'></div>
+                         
                                 <div>
                                     <h3>Yashwanth</h3>
                                     <span>Chief Operating Director</span>

@@ -195,7 +195,7 @@ background-color: #eaeaea;
 
 .about-container {
   position: relative;
-  height: 60vh;
+  height: auto;
 display: flex;
 flex-direction: column;
 flex-direction: column;
@@ -226,7 +226,7 @@ background-color: #eaeaea;
 .about-container h2{
   font-size: 30px;
 font-weight: 600;
-margin: 15px;
+margin-top: 10px;
   text-align: center;
 
 }
@@ -273,7 +273,7 @@ font-weight: 550;
 .services-heading {
   font-size: 30px;
 font-weight: 600;
-  margin-top: 0;
+  margin-top: 1vh;
   color: #14142b;
 }
 .service1 {
@@ -301,7 +301,6 @@ font-weight: 600;
 }
 
 .service-container{
-
   display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
@@ -325,8 +324,9 @@ align-items: center;
   font-size: 1rem;
   border: 1px solid black;
  background-color: #eaeaea;
- margin-left: 44vw;
- margin-top: 8vh;
+ margin-left: 43vw;
+ margin-top: 3vh;
+ margin-bottom: 2vh;
 }
 .arrow-icon{
   margin-left: 10px;
@@ -506,7 +506,7 @@ transition: 0.5s;
   padding: 20px;
 }
 .slide{
-height: 30vh;
+height: auto;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 40px;
   border-radius: 10px;
@@ -532,9 +532,8 @@ text-align: center;
 .user-info h3{
   color: #073b4c;
 }
-.user1,.user2,.user3,.user4{
-  background-image: url("./Images/background.jpg");
-}
+
+
 
 
 .video-background {
@@ -584,9 +583,54 @@ border-left: 1px solid black;
   .drop-it{
     background-color: #dfdede;
   }
+  .sliders {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+    margin: 40px auto; /* Adjust margin */
+    position: relative;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  width: 100%; 
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  -webkit-overflow-scrolling: touch;
+  padding: 0; 
+  margin: 0; 
+}
+
+.next-btn,
+.back-btn {
+  display: none;
+}
+.slider ul li {
+
+  flex: 0 0 auto; 
+  width: 90%; 
+  scroll-snap-align: start; 
+}
+
+
+.slide {
+  /* width:70vw; */
+height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+ margin-right: 0 ;
+    border-radius: 10px;
+    line-height: 1.5;
+    background-image: linear-gradient(19deg, #ffcb6b 0%, #A9C9FF 100%);
+    background-image: linear-gradient(-20deg, #b4cdf8 0%, #ffe6a8 100%);
+}
+
+  
   .navbar {
     flex-direction: column;
-    height: 15vh;
+    height: 10vh;
  
   }
 
@@ -602,6 +646,9 @@ border-left: 1px solid black;
     font-size: 28px;
     margin-top: -40px;
     margin-left: 70vw; 
+  }
+  .meet-people h2{
+    font-size: 25px;
   }
 
   .contents {
@@ -639,7 +686,12 @@ border-left: 1px solid black;
   }
   
   .Services {
-    width: 80%;
+    width: 100%;
+    padding: 0px;
+    
+  }
+  .services-heading,.about-container h2,.contact-head{
+font-size: 25px;
   }
   .carrer-content{
     font-size: 16px;
@@ -651,22 +703,14 @@ border-left: 1px solid black;
   .video-text {
     font-size: 30px;
   }
-  .service1{
-    flex-basis: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-    width: 100vw;
-    height: 25vh;
-    margin-left:-12px;
-}
+ 
 .service1 h4{
 text-align: center;
 margin-bottom: 4px;
 font-size: 16px;
 }
 .service1 p{
+ 
   font-size: 14px;
 }
   
@@ -709,7 +753,8 @@ font-size: 16px;
   height: 100px;
 }
 .forms button{
-  margin-top: 0px;
+  margin-top: -10px;
+margin-left: -3.2vw;
 }
 .font-icon{
 
@@ -754,7 +799,7 @@ font-size: 16px;
   margin-top: 0;
 }
 .about-container{
-  height: 55vh;
+  height: auto;
 }
 
 
@@ -772,23 +817,41 @@ margin-left: 33vw;
   
   
   .about-container {
-    height: 60vh;
+    height: auto;
     font-size: 14px;
+    padding: 10px;
   }
 
   .about-container button{
     margin-left: 30vw;
   }
-  .service1{
-    height: 33vh;
 
-    margin-right: 10px;
-  }
+  .service1{
+    flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+    width: 90vw;
+    height: auto;
+    
+    margin-top: 1vh;
+margin-bottom: 2vh;
+    padding: 15px;
+}
 
   .footer-section {
     flex-basis: 30%;
     margin-bottom: 0;
   }
+  .service1 p{
+    
+    text-align: center;
+    margin-top: 2px;
+    font-weight: 450;
+  }
+
+
 }
 
 @media only screen and (max-width: 450px) {

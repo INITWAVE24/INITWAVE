@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Home from './Home';
@@ -11,10 +11,10 @@ function Route() {
       <div>
         <Navbar />
         <Switch>
-          <Route path="/about" component={About} />
-          <Route path="/services" component={Services} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/" component={Home} />
+          <Route path="about" component={About} />
+          <Route path="services" component={Services} />
+          <Route path="contact" component={Contact} />
+          <Route path="" component={Home} />
         </Switch>
       </div>
     </Router>

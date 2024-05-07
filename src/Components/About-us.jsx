@@ -18,13 +18,11 @@ function AboutUs() {
            
             <div className="overview-section">
                 <h2>Overview</h2>
-                <p>Interact IT Solutions is a pioneering force in the realm of engineering services, specializing in core engineering design, product development, smart manufacturing, and digitalization. Our expertise lies in crafting innovative solutions tailored to meet the dynamic demands of the engineering services landscape.
-
-Managed by a seasoned team of professionals, Interact IT Solutions is committed to cultivating a robust ecosystem characterized by a seamless integration of cutting-edge competencies and unparalleled global delivery excellence.Our comprehensive range of services includes:
+                <p>Interact IT Solutions is a pioneering force in the realm of engineering services, specializing in core engineering design, product development, smart manufacturing, and digitalization. Our expertise lies in crafting innovative solutions tailored to meet the dynamic demands of the engineering services landscape.Managed by a seasoned team of professionals, Interact IT Solutions is committed to cultivating a robust ecosystem characterized by a seamless integration of cutting-edge competencies and unparalleled global delivery excellence.Our comprehensive range of services includes:
 </p><p>
-1.Custom Software Development: Leverage our expertise in developing bespoke software solutions tailored to your unique business requirements.</p>
+   1.Custom Software Development: Leverage our expertise in developing bespoke software solutions tailored to your unique business requirements.</p>
 <p>
-2.Product Development: Stay ahead of the curve with our scalable and futuristic product development solutions designed to propel your business forward.
+   2.Product Development: Stay ahead of the curve with our scalable and futuristic product development solutions designed to propel your business forward.
 </p>
 <p>
 3.Interact Priority Support: Recognizing the critical importance of reliable support, we offer dedicated assistance to ensure the seamless operation of your business systems.
