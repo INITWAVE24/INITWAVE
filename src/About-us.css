@@ -1,62 +1,102 @@
 .top-section{
-width: 100%;
-height: 60vh;
-background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Images/about1.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-}
-.top-section p{
-  font-weight: 600;
-    font-size: 30px;
-   margin-top: 34vh;
-   margin-left: 42vw;
-    position: absolute;
-    color: #FFFFFF;
-    letter-spacing: 0.3px;
-
-}
-.overview-section,.mission-section{
- background-color: #eaeaea;;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    line-height: 2;
-    padding: 40px;    
-}
-.overview-section p{
-  font-size: 17 px;
-  font-weight: 350;
-  line-height: 2.2;
-
-
-}
-.overview-section h2{
-  font-size: 30px;
-font-weight: 600;
-margin-bottom: 1em;
-}
-.mission-section{
-
-  height: 70vh;
-  background-image: url("./Images/Goal.jpg");
+  width: 100%;
+  height: 60vh;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Images/about1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  object-fit: fill;
-  color: #212121;
-  text-align: center;
-}
-.mission-section h2{
-margin-bottom: 80px;
-font-size: 30px;
-font-weight: 600;
-}
-.mission-section p{
-  color: #212121;
-  width: 800px;
-  font-size: 18px;
-  text-align: left;
-  margin-left: 400px;
-font-weight: 250;
-line-height: 2;
-}
-@media screen {
+  }
+  .top-section p{
+    font-weight: 600;
+      font-size: 30px;
+     margin-top: 34vh;
+     margin-left: 42vw;
+      position: absolute;
+      color: #FFFFFF;
+      letter-spacing: 0.3px;
   
-}
+  }
+  .overview-section,.mission-section{
+   background-color: #eaeaea;;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      line-height: 2;
+      padding: 40px;    
+  }
+  .overview-section p{
+    font-size: 17 px;
+    font-weight: 350;
+    line-height: 2.2;
+  
+  
+  }
+  .overview-section h2{
+    font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 1em;
+  }
+  .mission-section{
+  
+    height: 70vh;
+    background-image: url("./Images/Goal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    color: #212121;
+    text-align: center;
+  }
+  .mission-section h2{
+  margin-bottom: 80px;
+  font-size: 30px;
+  font-weight: 600;
+  }
+  .mission-section p{
+    color: #212121;
+    width: 800px;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 400px;
+  font-weight: 250;
+  line-height: 2;
+  }
+@media screen and (max-width: 768px) {
+  .top-section{
+    height: 30vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./Images/about1.jpg');
+    }
+
+    .top-section p{
+        font-size: 20px;
+       margin-top: 20vh;
+       margin-left: 38vw;
+       
+    
+    }
+
+    .overview-section p{
+      font-size: 12px;
+      font-weight: 350;
+      line-height: 1.8;
+    
+    
+    }
+    .mission-section{
+  
+      height: 50vh;
+    }
+
+    .mission-section h2{
+      margin-bottom: 10px;
+      font-size: 10px;
+      font-weight: 800;
+      margin-left: 150px;
+      }
+
+      .mission-section p{
+        color: #212121;
+        width: 180px;
+        font-size: 9px;
+        text-align: left;
+        margin-left: 140px;
+      font-weight: 200;
+      line-height: 1.3;
+      }
+    }

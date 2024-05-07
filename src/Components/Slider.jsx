@@ -26,11 +26,7 @@ function Slider(){
         slider.current.style.transform=`translateX(${tx}%)`;
     }
      
-    const peopleData = [
-        { name: "Dr. N G GirishKumar", position: "Communication director"},
-        { name: "Yashwanth", position: "Chief Operating Director" },
-       
-    ];
+  
 
     return(
         

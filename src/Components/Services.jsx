@@ -7,11 +7,9 @@ import mobile from '../Images/mobile development.png';
 import '../App.css';
 
 function Services() {
-    const isMobileView = window.innerWidth <= 768; 
 
-    if (isMobileView) {
-        return null; 
-    }
+
+  
 
     return (
         <>
