@@ -311,8 +311,8 @@ align-items: center;
 .logo1 {
 
   width: 80px; 
-  margin-left: 30px;
-  margin-bottom: 10px; 
+justify-content: center;
+  margin-bottom: 5px; 
 
 }
 .about-container button{
@@ -662,7 +662,7 @@ height: auto;
 
   .contents li {
     margin-left: 5vw;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .logo-toggle-container {
     flex-direction: row-reverse;
@@ -674,7 +674,7 @@ height: auto;
     top: 100%;
     left: 0;
     width: 45%;
-    height: 60vh;
+    height: 40vh;
     background-color: #eaeaea; 
 
     z-index: 100; 
@@ -705,6 +705,7 @@ font-size: 25px;
   }
  
 .service1 h4{
+  margin-top: 8px;
 text-align: center;
 margin-bottom: 4px;
 font-size: 16px;
@@ -796,7 +797,8 @@ margin-left: -3.2vw;
 }
 .contact-head{
 
-  margin-top: 0;
+  margin-top:10px ;
+  text-align: center;
 }
 .about-container{
   height: auto;
@@ -831,13 +833,12 @@ margin-left: 33vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-    width: 90vw;
+  justify-content: center;
+    width: 100vw;
     height: auto;
-    
     margin-top: 1vh;
 margin-bottom: 2vh;
-    padding: 15px;
+   
 }
 
   .footer-section {
@@ -845,7 +846,7 @@ margin-bottom: 2vh;
     margin-bottom: 0;
   }
   .service1 p{
-    
+    font-size: 14px;
     text-align: center;
     margin-top: 2px;
     font-weight: 450;

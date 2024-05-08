@@ -34,19 +34,19 @@ function Navbar() {
             <div className={`mobile-menu-contents ${isMobileMenuOpen ? 'open' : ''}`}>
                 <ul className="contents">
                     <NavLink exact to='' activeClassName="active" smooth={true} offset={0} duration={500}>
-                        <li>HOME</li>
+                        <li>Home</li>
                     </NavLink>
                     <NavLink to='about-us' activeClassName="active" smooth={true} offset={0} duration={500}>
-                        <li>ABOUT US</li>
+                        <li>About Us</li>
                     </NavLink>
                     <NavLink to='services' activeClassName="active" smooth={true} offset={0} duration={500}>
-                        <li>SERVICES</li>
+                        <li>Services</li>
                     </NavLink>
                     <NavLink to='careers' activeClassName="active" smooth={true} offset={0} duration={500}>
-                        <li>CAREERS</li>
+                        <li>Careers</li>
                     </NavLink>
                     <NavLink to='contact' activeClassName="active" smooth={true} offset={0} duration={500}>
-                        <li>CONTACT</li>
+                        <li>Contact</li>
                     </NavLink>
                 </ul>
             </div>

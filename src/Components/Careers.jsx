@@ -1,8 +1,12 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import video from '../Images/career.mp4' 
 import "../App.css";
 
 function Career() {
+    
+    useEffect(()=> {
+        window.scrollTo(0, 0);
+    },[])
     return (
         <>
             <div className="video-background">

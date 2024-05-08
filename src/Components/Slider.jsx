@@ -47,16 +47,15 @@ function Slider(){
                                     <span>Communication director</span>
                                 </div>
                             </div>
-                            <p>
-Joining Interact IT as a Communication Director has been exhilarating. Collaborating with a vibrant team, I shape our brand's narrative, foster meaningful connections, and drive our mission forward. It's not just a job; it's a dynamic journey of innovation and impact.</p>
-                        </div>
+                           <p>Joining Interact IT as a Communication Director has been exhilarating. Collaborating with a vibrant team, I shape our brand's narrative, foster meaningful connections, and drive our mission forward. It's not just a job, it's a dynamic journey of innovation and impact Every day at Interact IT is an opportunity to push boundaries, amplify our voice in the industry, and inspire positive change through the art of effective communication.</p>
+                    </div>
                     </li>
                     <li>
                         <div className='slide slide2'>
                             <div className='user-info'>
                          
                                 <div>
-                                    <h3>Yashwanth</h3>
+                                    <h3>Yeshwanth P Jadhav </h3>
                                     <span>Chief Operating Director</span>
                                 </div>
                             </div>

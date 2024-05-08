@@ -5,6 +5,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 function About() {
+    
     return (
         <div className='about-container'>
             <motion.h2

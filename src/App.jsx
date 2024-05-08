@@ -11,10 +11,12 @@ import Footer from './Components/Footer'
 import AboutUs from './Components/About-us'
 import Slider from './Components/Slider'
 import Career from './Components/Careers'
-
+import { ScrollRestoration } from 'react-router-dom'
 function App() {
   return (
     <>
+                <ScrollRestoration/>
+
       <Navbar />
       {/* <Content />
       <Heading></Heading>
