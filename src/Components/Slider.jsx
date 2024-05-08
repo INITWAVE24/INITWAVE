@@ -47,7 +47,7 @@ function Slider(){
                                     <span>Communication director</span>
                                 </div>
                             </div>
-                           <p>Joining Interact IT as a Communication Director has been exhilarating. Collaborating with a vibrant team, I shape our brand's narrative, foster meaningful connections, and drive our mission forward. It's not just a job, it's a dynamic journey of innovation and impact Every day at Interact IT is an opportunity to push boundaries, amplify our voice in the industry, and inspire positive change through the art of effective communication.</p>
+                           <p>Joining Interact IT as a Communication Director has been exhilarating. Collaborating with a vibrant team, I shape our brand's narrative and drive our mission forward. it's a dynamic journey of innovation and impact Every day at Interact IT is an opportunity to push boundaries and inspire positive change through the art of effective communication.</p>
                     </div>
                     </li>
                     <li>
