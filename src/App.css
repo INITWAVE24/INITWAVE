@@ -273,7 +273,8 @@ font-weight: 550;
 .services-heading {
   font-size: 30px;
 font-weight: 600;
-  margin-top: 1vh;
+
+  margin-block: 3vh;
   color: #14142b;
 }
 .service1 {
@@ -305,6 +306,7 @@ font-weight: 600;
 flex-wrap: wrap;
 justify-content: space-evenly;
 align-items: center;
+margin-bottom: 3vh;
 }
 
 
@@ -674,7 +676,7 @@ height: auto;
     top: 100%;
     left: 0;
     width: 45%;
-    height: 40vh;
+    height: 45vh;
     background-color: #eaeaea; 
 
     z-index: 100; 
