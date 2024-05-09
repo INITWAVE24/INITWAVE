@@ -3,20 +3,13 @@ import ReactDOM from 'react-dom';
 import { Route, RouterProvider, createHashRouter, createRoutesFromElements } from 'react-router-dom';
 import Layout from './Components/Layout.jsx';
 import Content from './Components/Content.jsx';
-import About from './Components/About.jsx';
 import Career from './Components/Careers.jsx';
 import AboutUs from './Components/About-us.jsx';
 import Services from './Components/Services.jsx';
 import { Home } from './Components/Home.jsx';
 import Contact from './Components/Contact.jsx';
-import { ScrollRestoration } from 'react-router-dom';
-const ScrollToTop = () => {
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
-  return null;
-};
+
 
 const App = () => {
   const router = createHashRouter(createRoutesFromElements(

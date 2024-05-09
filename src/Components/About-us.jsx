@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
 import '../About-us.css';
-import Image from '../Images/goal1.jpg'; 
 import Slider from './Slider';
 
 
@@ -11,7 +10,7 @@ function AboutUs() {
     useEffect(()=> {
         window.scrollTo(0, 0);
     },[])
-    const aboutRef=useRef();
+   
 
     return (
         <div className="about-us-container">

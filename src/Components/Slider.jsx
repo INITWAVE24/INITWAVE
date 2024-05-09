@@ -1,5 +1,4 @@
-import next_icon from '../Images/arrow2.png'
-import back_icon from '../Images/arrow1.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';

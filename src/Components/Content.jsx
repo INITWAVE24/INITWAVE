@@ -1,11 +1,11 @@
-// Content.js
+
 import '../App.css'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
 function Content() {
   const [isMounted, setIsMounted] = useState(false)
-  const text = 'Initwave IT'.split(' ')
+  const text = 'INITWAVE IT'.split(' ')
   const randomText = 'Quality of IT services offered with new, talented individuals'
 
   useEffect(() => {

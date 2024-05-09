@@ -7,10 +7,6 @@ import mobile from '../Images/mobile development.png';
 import '../App.css';
 
 function Services() {
-
-
-  
-
     return (
         <>
             <div className="Services" id="services">
