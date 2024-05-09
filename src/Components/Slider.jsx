@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
-{/* <FontAwesomeIcon icon="fa-solid fa-chevron-right" /> */}
 import "../App.css";
 import { useRef } from 'react'
 function Slider(){
@@ -12,15 +11,15 @@ function Slider(){
     const slider=useRef();
     let tx=0;
     const slideForward = () => {
-        if (tx > -75) { // Adjust the condition based on the number of slides
-            tx -= 25; // Adjust the value based on the width of your slides
+        if (tx > -75) { 
+            tx -= 25; 
             slider.current.style.transform = `translateX(${tx}%)`;
         }
     };
     
     const slideBackward = () => {
         if (tx < 0) {
-            tx += 25; // Adjust the value based on the width of your slides
+            tx += 25; 
             slider.current.style.transform = `translateX(${tx}%)`;
         }
     };
@@ -47,7 +46,7 @@ function Slider(){
                                     <span>Communication director</span>
                                 </div>
                             </div>
-                           <p>Joining Interact IT as a Communication Director has been exhilarating. Collaborating with a vibrant team, I shape our brand's narrative and drive our mission forward. it's a dynamic journey of innovation and impact Every day at Interact IT is an opportunity to push boundaries and inspire positive change through the art of effective communication.</p>
+                           <p>Joining Initwave IT as a Communication Director has been exhilarating. Collaborating with a vibrant team, I shape our brand's narrative and drive our mission forward. it's a dynamic journey of innovation and impact Every day at Initwave IT is an opportunity to push boundaries and inspire positive change through the art of effective communication.</p>
                     </div>
                     </li>
                     <li>
@@ -60,7 +59,7 @@ function Slider(){
                                 </div>
                             </div>
                        <p>
-As the Chief Operating Director at Interact IT, I orchestrate seamless operations, ensuring efficiency and excellence in every endeavor. With a focus on strategic planning and team empowerment, I navigate complexities and drive organizational success. Join us in our quest for operational excellence and transformative growth.</p>
+As the  Chief Technology Officer at Initwave IT, I orchestrate seamless operations, ensuring efficiency and excellence in every endeavor. With a focus on strategic planning and team empowerment, I navigate complexities and drive organizational success. Join us in our quest for operational excellence and transformative growth.</p>
                        </div>
                     </li>
                     <li>
@@ -74,7 +73,7 @@ As the Chief Operating Director at Interact IT, I orchestrate seamless operation
                                 </div>
                             </div>
               <p>
-At Interact IT, as the Marketing Director, I lead a dynamic team in crafting compelling narratives, building brand resonance, and driving impactful campaigns. Together, we leverage innovation and creativity to connect with audiences and propel the company's growth trajectory. Join us in shaping the future of marketing excellence.
+At Initwave IT, as the Marketing Director, I lead a dynamic team in crafting compelling narratives, building brand resonance, and driving impactful campaigns. Together, we leverage innovation and creativity to connect with audiences and propel the company's growth trajectory. Join us in shaping the future of marketing excellence.
               </p>
               </div>
                     </li>
@@ -87,7 +86,7 @@ At Interact IT, as the Marketing Director, I lead a dynamic team in crafting com
                                 </div>
                             </div>
          <p>
-As the Project Head at Interact IT, I spearhead cross-functional teams, ensuring seamless project execution and delivery. With a focus on strategy, collaboration, and innovation, I drive projects from inception to success. Join our team to lead transformative projects and make a tangible impact in the world of technology.</p>
+As the Project Head at Initwave IT, I spearhead cross-functional teams, ensuring seamless project execution and delivery. With a focus on strategy, collaboration, and innovation, I drive projects from inception to success. Join our team to lead transformative projects and make a tangible impact in the world of technology.</p>
          </div>
                     </li>
                 </ul>

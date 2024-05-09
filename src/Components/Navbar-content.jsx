@@ -27,7 +27,7 @@ function Headings() {
                             >
                                 CAREERS
                                 <div className={`dropdown-content ${isDropdownOpen ? 'open' : ''}`}>
-                                    <p>Join us at Interact IT and become a part of a community that values innovation, collaboration, and making a positive difference in the world. Together, we can create meaningful solutions that shape the future of technology and drive positive change for our clients and communities alike.</p>
+                                    <p>Join us at Initwave IT and become a part of a community that values innovation, collaboration, and making a positive difference in the world. Together, we can create meaningful solutions that shape the future of technology and drive positive change for our clients and communities alike.</p>
                                     <NavLink to='/careers'>
                                         <motion.button whileTap={{ scale: 0.85 }}>
                                             Explore Opportunities

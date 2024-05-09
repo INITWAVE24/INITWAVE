@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 
 function Content() {
   const [isMounted, setIsMounted] = useState(false)
-  const text = 'INTERACT IT'.split(' ')
+  const text = 'Initwave IT'.split(' ')
   const randomText = 'Quality of IT services offered with new, talented individuals'
 
   useEffect(() => {

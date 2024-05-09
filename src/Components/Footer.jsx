@@ -19,7 +19,7 @@ function Footer() {
           <ul>
             <li>Custom Software Development</li>
             <li>Product Development</li>
-            <li>Interact Priority Support</li>
+            <li>Initwave Priority Support</li>
             <li>Mobile Application Development</li>
           </ul>
         </div>
@@ -41,7 +41,7 @@ function Footer() {
         </div>
       </div>
       <div className="copyright">
-        <p>&copy; 2024 Interact IT. All rights reserved.</p>
+        <p>&copy; 2024 Initwave IT. All rights reserved.</p>
       </div>
     </footer>
   );

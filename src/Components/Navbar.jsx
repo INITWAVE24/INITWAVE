@@ -11,10 +11,10 @@ function Navbar() {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
 
-    // Listen to route changes
+   
     const location = useLocation();
     useEffect(() => {
-        setIsMobileMenuOpen(false); // Close the mobile menu on route change
+        setIsMobileMenuOpen(false); 
     }, [location]);
 
     return (
@@ -23,7 +23,7 @@ function Navbar() {
                 <div className='logo-div'>
                     <img src={logo1} className="logo" alt="Logo" />
                     <div className='name-div'>
-                        <p>INTERACT IT</p>
+                        <p>INITWAVE IT</p>
                         <p>SERVICES</p>
                     </div>
                 </div>

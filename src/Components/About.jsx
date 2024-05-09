@@ -22,7 +22,7 @@ function About() {
                     animate={{ x: 0, opacity: 1 }} 
                     transition={{ duration: 0.5, delay: 0.25 }}
                 >
-                   <p>Interact's expertise extends beyond traditional engineering services, encompassing a comprehensive array of specialized fields that are integral to modern industry. With a focus on innovation and excellence, our team is dedicated to pushing the boundaries of engineering design, product development, and manufacturing processes.Our success is underpinned by a highly experienced team of professionals who bring a wealth of knowledge and expertise to every project.</p>
+                   <p>Initwave's expertise extends beyond traditional engineering services, encompassing a comprehensive array of specialized fields that are integral to modern industry. With a focus on innovation and excellence, our team is dedicated to pushing the boundaries of engineering design, product development, and manufacturing processes.Our success is underpinned by a highly experienced team of professionals who bring a wealth of knowledge and expertise to every project.</p>
                    
                 </motion.div>
                 

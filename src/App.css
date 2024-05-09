@@ -2,7 +2,6 @@
 
 html,body{
 width:100%;
-/* height: 100%; */
 overflow-x: hidden;
 }
 *{
@@ -77,11 +76,11 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .logo {
-  height: 60px; /* Adjust height as needed */
+  height: 60px; 
 }
 
 .mobile-menu-toggle {
-  display: none; /* Hide toggle button by default for non-mobile view */
+  display: none; 
   cursor: pointer;
 }
 
@@ -111,7 +110,7 @@ a{
 
 .forms input{
   color: #000;
-  /* font-style: italic; */
+
   font-size: 16px;
   width: 70%;
 margin-bottom: 35px;
@@ -257,7 +256,7 @@ font-weight: 550;
 .Services {
   padding: 50px;
   display: flex;
-  flex-direction: column; /* Set flex direction to column */
+  flex-direction: column; 
   align-items: center;
   color: #14142b;
   background-image:  url('./Images/service1.jpg');
@@ -267,7 +266,7 @@ font-weight: 550;
   background-position: center;
   background-repeat: no-repeat;
   max-width: 1400px;
-  /* width: 100%; */
+ 
 }
 
 .services-heading {
@@ -419,9 +418,6 @@ padding: 10px;
   position: absolute;
   top: 8vh;
   left: -60vw;
- 
-  
-  /* border: 1px solid #ccc; */
   padding: 10px;
   z-index: 1;
 }
@@ -586,8 +582,8 @@ border-left: 1px solid black;
     background-color: #dfdede;
   }
   .sliders {
-    padding: 0 20px; /* Adjust padding for smaller screens */
-    margin: 40px auto; /* Adjust margin */
+    padding: 0 20px; 
+    margin: 40px auto; 
     position: relative;
 }
 
@@ -618,7 +614,7 @@ border-left: 1px solid black;
 
 
 .slide {
-  /* width:70vw; */
+
 height: 40vh;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px;
@@ -863,18 +859,5 @@ margin-bottom: 2vh;
 
 }
 
-@media only screen and (max-width: 450px) {
 
-}
-
-
-
-@media only screen and (min-width: 992px) {
-
-}
-
-
-@media only screen and (min-width: 1200px) {
- 
-}
 

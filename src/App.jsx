@@ -1,4 +1,4 @@
-// App.js
+
 
 import './App.css'
 import Navbar from './Components/Navbar'
@@ -15,18 +15,7 @@ import { ScrollRestoration } from 'react-router-dom'
 function App() {
   return (
     <>
-                <ScrollRestoration/>
-
-      <Navbar />
-      {/* <Content />
-      <Heading></Heading>
-      <About /> */}
-    {/* <Career/> */}
-      {/* <Services /> */}
-      <AboutUs></AboutUs>
-      <Slider/>
-      {/* <Contact /> */}
-      <Footer></Footer>
+              
     </>
   )
 }
