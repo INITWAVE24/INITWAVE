@@ -56,7 +56,7 @@ function Slider(){
                          
                                 <div>
                                     <h3>Yeshwanth P Jadhav </h3>
-                                    <span>Chief Operating Director</span>
+                                    <span> Chief Technology Officer</span>
                                 </div>
                             </div>
                        <p>
