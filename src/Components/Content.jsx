@@ -5,8 +5,8 @@ import { useEffect, useState } from 'react'
 
 function Content() {
   const [isMounted, setIsMounted] = useState(false)
-  const text = 'INITWAVE IT'.split(' ')
-  const randomText = 'Quality of IT services offered with new, talented individuals'
+  const text = 'INITWAVE'.split(' ')
+  const randomText = 'Quality of IT services offered with new talented individuals'
 
   useEffect(() => {
     setIsMounted(true)

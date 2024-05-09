@@ -33,35 +33,35 @@
   font-weight: 600;
   margin-bottom: 1em;
   }
-  .mission-section{
-  
-    height: 70vh;
-    background-image: url("./Images/Goal.jpg");
+  .mission-section {
+    height: 65vh;
+    margin-top: -2vh;
+    background-image: linear-gradient(rgba(65, 51, 42, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/goal3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    object-fit: fill;
-    color: #212121;
+    object-fit: cover;
+    color: #FFFFFF;
     text-align: center;
-  }
+}
+
   .mission-section h2{
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   font-size: 30px;
   font-weight: 600;
-  }
+  } 
   .mission-section p{
-    color: #212121;
+  
     width: auto;
-    font-size: 18px;
-    text-align: left;
-    margin-left: 400px;
-  font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+  font-weight: 450;
   line-height: 2;
  
   }
 @media screen and (max-width: 768px) {
   .top-section{
     height: 30vh;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./Images/about1.jpg');
+    background-image: linear-gradient( rgba(14, 8, 6, 0.4), rgba(0, 0, 0, 0.4)), url('./Images/about1.jpg');
     }
 
     .top-section p{
@@ -92,21 +92,22 @@
     }
 
     .mission-section h2{
+      text-align: left;
       margin-bottom: 10px;
       font-size: 25px;
       font-weight: 600;
-      margin-left: 165px;
+      
       }
 
       .mission-section p{
-        color: #212121;
+        color: #FFFFFF;
         width: 180px;
-        font-size: 9px;
+        font-size: 11px;
         text-align: left;
-        margin-left: 180px;
+        
       font-weight: 400;
-      line-height: 1.4;
-      margin-right: 2vh;
+      line-height: 1.5;
+    
       }
     }
     @media screen and (max-width: 360px) {

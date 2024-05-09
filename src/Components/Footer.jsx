@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-section">
           <h2>Contact</h2>
           <ul>
-          <li>Email: <a href='mailto:intractit@gmail.com'>intractit@gmail.com</a></li>
+          <li>Email: <a href='mailto:initwave24@gmail.com'>initwave24@gmail.com</a></li>
             <li>Phone: <a href="tel:+91 7204070100">+91 7204070100</a> (WhatsApp)</li>
             <li>Address: Banglore,India</li>
           </ul>
@@ -36,12 +36,12 @@ function Footer() {
           <h2>Connect with Us</h2>
           <ul>
             <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-            <li><a href="https://wa.me/+91 7204070100">WhatsApp</a></li>
+            <li><a href="https://wa.me/7204070100">WhatsApp</a></li>
           </ul>
         </div>
       </div>
       <div className="copyright">
-        <p>&copy; 2024 Initwave IT. All rights reserved.</p>
+        <p>Copyright &copy; 2024 Initwave. All rights reserved.</p>
       </div>
     </footer>
   );

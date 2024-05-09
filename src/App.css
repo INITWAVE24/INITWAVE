@@ -21,26 +21,30 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
 
 .logo{
+  margin-top: 8px;
   margin-left: 1vw;
-  width: 70px;
-  height: 60px;
+  width: 120px;
+  height: 80px;
 }
 
 .logo-div{
   display: flex;
 }
 .name-div {
-  display: flex;
+ /* display: flex; */
+  /* margin-top: 1vh;  */
+  margin-left: -2vw;
   flex-direction: column;
   align-items: center;
+  font-weight: 700;
   justify-content: center;
  
 }
-.name-div p{
-  margin-bottom: 5px;
-  font-weight: 600;
-  font-size: 14px;
+.name1{
+  font-size: 9px;
+  font-weight: 450;
 }
+
 
 .contents {
   display: flex;
@@ -75,9 +79,7 @@ box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   align-items: center;
 }
 
-.logo {
-  height: 60px; 
-}
+
 
 .mobile-menu-toggle {
   display: none; 
@@ -133,7 +135,7 @@ background-color: #eaeaea;
   border: none;
   text-align: center;
   color: #000;
- 
+ margin-left: 7vw;
   font-size: 1em;
 }
 .forms input,textarea:focus{
@@ -327,7 +329,7 @@ justify-content: center;
  background-color: #eaeaea;
  margin-left: 43vw;
  margin-top: 3vh;
- margin-bottom: 2vh;
+ margin-bottom: 7vh;
 }
 .arrow-icon{
   margin-left: 10px;
@@ -406,8 +408,9 @@ padding: 10px;
   text-decoration: underline;
 }
 
-.copyright {
+.copyright p{
   text-align: center;
+font-family: 'Helvetica';
   margin-top: 30px;
   font-size: 14px;
 }
@@ -475,7 +478,7 @@ padding: 10px;
 }
 .next-btn,.back-btn{
   position: absolute;
-  top:50%;
+  top:40%;
   right: 0;
   width: 32px;
   height: 32px;
@@ -504,7 +507,7 @@ transition: 0.5s;
   padding: 20px;
 }
 .slide{
-height: 30vh;
+height: 40vh;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 40px;
   border-radius: 10px;
@@ -578,6 +581,7 @@ border-left: 1px solid black;
   margin-right: 20px;
 }
 @media screen and (max-width: 768px) {
+
   .drop-it{
     background-color: #dfdede;
   }
@@ -585,6 +589,12 @@ border-left: 1px solid black;
     padding: 0 20px; 
     margin: 40px auto; 
     position: relative;
+}
+.logo{
+ 
+  width: 90px;
+  height: 68px;
+
 }
 
 .slider {
@@ -615,7 +625,7 @@ border-left: 1px solid black;
 
 .slide {
 
-height: 40vh;
+height: 34vh;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px;
  margin-right: 0 ;
@@ -633,7 +643,7 @@ height: 40vh;
   }
 
   .logo-div {
-    margin-top: 2.5vh;
+    margin-top: 1vh;
     margin-left: -10vw;
    
   }
@@ -642,8 +652,15 @@ height: 40vh;
    
     display: flex;
     font-size: 28px;
-    margin-top: -40px;
+    margin-top: -50px;
     margin-left: 70vw; 
+  }
+  .logo{
+  margin-left: -1vw;
+  }
+  .name-div{
+    margin-top: 0vh;
+    margin-left: -5vw;
   }
   .meet-people h2{
     font-size: 25px;
@@ -663,23 +680,22 @@ height: 40vh;
     margin-bottom: 10px;
   }
   .logo-toggle-container {
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
   }
 
   .mobile-menu-contents {
     position: absolute;
-   
     top: 100%;
     left: 0;
     width: 45%;
-    height: 45vh;
+    height: 40vh;
     background-color: #eaeaea; 
 
     z-index: 100; 
     display: none;
   }
   .mobile-menu-contents li{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 10vw;
   }
   
@@ -753,7 +769,7 @@ font-size: 16px;
 }
 .forms button{
   margin-top: -10px;
-margin-left: -3.2vw;
+margin-left: 10vw;
 }
 .font-icon{
 
@@ -813,9 +829,12 @@ margin-left: 33vw;
 }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
 .slide{
-  height: 47vh;
+  height: auto;
+}
+.navbar{
+  height: 15vh;
 }
 }
 

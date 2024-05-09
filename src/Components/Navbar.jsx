@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo1 from "../Images/logo1.png";
+import logo1 from "../Images/logo4.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import "../App.css";
@@ -23,8 +23,9 @@ function Navbar() {
                 <div className='logo-div'>
                     <img src={logo1} className="logo" alt="Logo" />
                     <div className='name-div'>
-                        <p>INITWAVE IT</p>
-                        <p>SERVICES</p>
+                        <p>INITWAVE</p>
+                        <p className='name1'>FUTUTRE IS HERE</p>
+                     
                     </div>
                 </div>
                 <div className="mobile-menu-toggle" onClick={toggleMobileMenu}>
@@ -39,12 +40,11 @@ function Navbar() {
                     <NavLink to='about-us' activeClassName="active" smooth={true} offset={0} duration={500}>
                         <li>About Us</li>
                     </NavLink>
-                    <NavLink to='services' activeClassName="active" smooth={true} offset={0} duration={500}>
-                        <li>Services</li>
-                    </NavLink>
+                   
                     <NavLink to='careers' activeClassName="active" smooth={true} offset={0} duration={500}>
                         <li>Careers</li>
                     </NavLink>
+                    
                     <NavLink to='contact' activeClassName="active" smooth={true} offset={0} duration={500}>
                         <li>Contact</li>
                     </NavLink>
