@@ -91,7 +91,7 @@ As the  Chief Technology Officer at Initwave IT, I orchestrate seamless operati
                             <div className='user-info'>
                             
                                 <div>
-                                    <h3>Pavan Kumar
+                                    <h3> Pavan kumar N
                                     </h3>
                                     <span>Marketing Director</span>
                                 </div>

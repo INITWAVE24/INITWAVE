@@ -829,14 +829,7 @@ margin-left: 33vw;
 }
 }
 
-@media screen and (max-width: 380px) {
-.slide{
-  height: auto;
-}
-.navbar{
-  height: 15vh;
-}
-}
+
 
 @media only screen and (max-width: 600px) {
   
@@ -874,9 +867,14 @@ margin-bottom: 2vh;
     margin-top: 2px;
     font-weight: 450;
   }
-
+ 
 
 }
+@media screen and (max-width: 400px) {
+  .slide{
+    height: auto;
+  }
 
+  }
 
 

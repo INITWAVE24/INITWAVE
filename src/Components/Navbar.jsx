@@ -21,10 +21,10 @@ function Navbar() {
         <nav className="navbar">
             <div className="logo-toggle-container">
                 <div className='logo-div'>
-                    <img src={logo1} className="logo" alt="Logo" />
+                    <img src={logo1} className="logo" alt="Logo" /> 
                     <div className='name-div'>
                         <p>INITWAVE</p>
-                        <p className='name1'>FUTUTRE IS HERE</p>
+                        <p className='name1'>FUTURE IS HERE</p>
                      
                     </div>
                 </div>

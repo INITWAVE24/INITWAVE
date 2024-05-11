@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect } from 'react';
 
 import '../About-us.css';
 import Slider from './Slider';
@@ -39,8 +39,7 @@ At Initwave IT Solutions, our mission is to collaborate closely with our clients
               <div className='mission-div'>
               <h2>Our Mission</h2>
               
-              <p>Our mission at Initwave IT is to revolutionize the engineering services industry by leveraging cutting-edge technologies and innovative solutions. We are committed to empowering businesses with the tools they need to thrive in a rapidly evolving digital landscape.</p>
-              <p>Through a relentless pursuit of excellence, we aim to redefine the standard of quality and reliability in engineering design, product development, smart manufacturing, and digitalization. Our team of seasoned professionals is dedicated to delivering unparalleled value to our clients, ensuring that they remain at the forefront of innovation and competitiveness.</p>
+              <p>Our mission at Initwave IT is to revolutionize the engineering services industry by leveraging cutting-edge technologies and innovative solutions. We are committed to empowering businesses with the tools they need to thrive in a rapidly evolving digital landscape.Through a relentless pursuit of excellence, we aim to redefine the standard of quality and reliability in engineering design, product development, smart manufacturing, and digitalization. Our team of seasoned professionals is dedicated to delivering unparalleled value to our clients, ensuring that they remain at the forefront of innovation and competitiveness.</p>
               
               </div>
             </div>
